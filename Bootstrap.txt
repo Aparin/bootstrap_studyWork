@@ -1,0 +1,43 @@
+https://getbootstrap.com/docs/4.1/getting-started/introduction/
+
+class="container-fluid" - разворачивает div на всю ширину, при этом его размер зависит от экрана:
+	* 1200px или больше: 1170 px
+	* от 992 до 1199px: 970px
+	* от 768 до 991 px: 750px
+	* меньше 768: auto
+	
+<div class="row"> - убирает отступы внутри контейнера(padding)
+class="col-lg-9" - ширина дива в блоках, максимум 12. Сетка с 2 сайдбарами и центральной областью будет такой: col-lg-3 col-lg-6 col-lg-3
+
+Приставка класса для разрешения экрана:
+* 1200+ (large devices): col-lg-* // например, col-lg-9, - 9 ячеек сетки.
+* 992 - 1199 (medium devices): col-md-*
+* 768 - 991 (small devices): col-sm-*
+* 768- (extra small): col-xs-*
+
+Пример: 	
+<div class="container">
+    <div class="col-xs-12 col-sm-12 col-md-6 color-left-block">
+        <h3>Left block</h3> 
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 color-right-block">
+		<h3>Right block</h3> 
+    </div>
+</div>
+
+hidden-* // скрыть на экранах
+hidden-xs //скрыть на экранах extra small
+
+visible-* //показать блок
+
+col-lg-push-* // сдвинуть блок на разрешении 'lg' на '*' позиций вправо
+col-lg-pull-* // сдвинуть блок на разрешении 'lg' на '*' позиций влево
+
+Классы кнопок:
+<a href='#' class='btn  btn-warning pull-right'>Читать</a> // Оранжевая кнопка с белым шрифтом, выравнивание справа
+<a href="#" class="btn btn-success pull-right">читать</a> // зелёная
+btn-info // серый ультрамарин
+btn-danger // красный
+btn-link // ссылка
+btn-primary // грязно-синий
+btn-default // прозрачный с обводкой
