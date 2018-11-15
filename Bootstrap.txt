@@ -41,3 +41,81 @@ btn-danger // красный
 btn-link // ссылка
 btn-primary // грязно-синий
 btn-default // прозрачный с обводкой
+
+--------------------------------------------------------------------------------------------------------
+
+Меняем блоки местами:
+<div class="col-lg-3 col-lg-pull-9"> // сдвигаем правый сайдбар на больших экранах влево на 9 клеток
+<div class="col-lg-9 col-lg-push-3"> // сдвигаем основную область на больших экранах вправо на 3 клетки
+
+--------------------------------------------------------------------------------------------------------
+
+Кнопочное горизонтальное меню, прижатое справа:
+ <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
+    <ul class="nav nav-pills"> // pills - горизонтальное
+        <li class="active"> <a href="#">Главная</a> </li>
+        <li> <a href="#">Страница 1</a> </li>
+        <li> <a href="#">Контакты</a> </li>
+	</ul>
+</div>
+
+--------------------------------------------------------------------------------------------------------
+
+Блоки сайдбаров:
+
+	* Простой:
+		----------------------------------------------------------------------------------------
+		<div class='panel panel-info'>
+            <div class='panel-heading'>
+				<div class='sidebar-header'>Новости</div>
+			</div>
+			<div class='panel-body'>
+				<p>31.02.2017</p>
+				<p>Мы запустили новый сервис</p>
+			</div>
+        </div>
+		----------------------------------------------------------------------------------------
+		
+	* Поиск:
+		----------------------------------------------------------------------------------------
+		<div class='panel panel-info'>
+            <div class='panel-heading'>
+                <div class='sidebar-header'>Поиск</div>
+            </div>
+            <div class='panel-body'>
+                <form role='search'>
+					<div class='form-group'>
+						<div class='input-group'>
+							<input type='search' class='form-control input-lg' placeholder='Ваш запрос'>
+							<div class='input-group-btn'>
+								<button class='btn btn-default btn-lg' type='submit'>
+									<i class='glyphicon glyphicon-search'></i>
+								</button>
+							</div>
+						</div>
+					</div>
+                </form>
+            </div>
+        </div>
+		----------------------------------------------------------------------------------------
+		
+	* Авторизация:
+		----------------------------------------------------------------------------------------
+		<div class='panel panel-info'>
+            <div class='panel-heading'>
+                <div class='sidebar-header'>Вход</div>
+            </div>
+            <div class='panel-body'>
+                <form role='form'>
+                    <div class='form-group'>
+                        <input type='text' class='form-control input-lg' placeholder='Логин'>
+                    </div>
+                    <div class='form-group'>
+                        <input type='password' class='form-control input-lg' placeholder='Пароль'>
+                    </div>
+                    <button type='submit' class='btn btn-warning pull-right'>Вход</button>
+                </form>
+
+            </div>
+        </div>
+		----------------------------------------------------------------------------------------	
