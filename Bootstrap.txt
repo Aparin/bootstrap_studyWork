@@ -1,4 +1,5 @@
-https://getbootstrap.com/docs/4.1/getting-started/introduction/
+Документация: https://getbootstrap.com/docs/4.1/getting-started/introduction/
+Готовые темы: https://bootswatch.com/
 
 --------------------------------------------------------------------------------------------------------
 Размеры экрана
@@ -166,7 +167,11 @@ btn-default // прозрачный с обводкой
 			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zSWdZVtXT7E"></iframe>
         </div>
 		
---------------------------------------------------------------------------------------------------------		
+--------------------------------------------------------------------------------------------------------
+
+clearfix - управляет обтеканием		
+img-responsive - адаптивный размер картинки
+img-thumbnail - рамка вокруг картинки
 		
 		
 		
