@@ -139,3 +139,20 @@ btn-default // прозрачный с обводкой
             </div>
         </div>
 		----------------------------------------------------------------------------------------	
+		
+	* Списки: 
+		----------------------------------------------------------------------------------------
+		https://www.screencast.com/t/MKcCQeZYoHI
+		<div class='panel-body'>
+			<ul class="list-group">
+				<li class="list-group-item list-group-item-warning">
+                    <a href='#'>Интерстеллар</a>
+                    <span class="badge">8.9</span>
+                </li>
+                <li class="list-group-item list-group-item-warning">
+                    <a href='#'>Безумный Макс</a>
+                    <span class="badge">8.7</span>
+                </li>
+            </ul>
+        </div>
+		----------------------------------------------------------------------------------------	
